@@ -1,0 +1,52 @@
+
+#
+# Hello this is a sample .gitignore file
+#
+
+# ******************************************
+# Understand: * (ig: Any file or directory at any depth): 
+# Result: Hide all
+# ******************************************
+# Lets try with */ (a directory approach)
+# Only files under directories are hidden
+# 
+# Lets see what happens a * is in the root
+# Seem to block all files and directories including .gitignore
+#*
+
+# ******************************************
+# Understand: */ (ig: Any directory at any depth)
+# Result: Only root files show
+# ******************************************
+# Lets try with */ (a directory approach)
+# Only files under directories are hidden
+# Because all directories are ignored, only root files show
+# when a directory is ignored all its children are ignored
+#*/
+
+# ******************************************
+# Understand: /** (Actual directive to ignore this directory and all below)
+# Result: as expected
+# ******************************************
+# Meanning: Hide all sub directories including this one
+# Hide this directory and everything underneath
+# Similar behavior as *
+#/**
+
+# ******************************************
+# Understand: /*
+# ******************************************
+# Lets see a relative path with a /*
+# Any Directory or a file name ONLY in the root, however
+#
+# Children directory behavior (as expected)
+# ******************************************
+# 1. First level files are hidden
+# 2. Only First level directories are hidden (but ...)
+# 3. Because of 2 all sub directories and their files are hidden as well
+* 4. So the result is every thing is hidden (a side effect)
+#
+# Similar behavior as: *, /*, /**
+#
+# *******************************************
+# /*
