@@ -17,5 +17,10 @@ and reinitialize it as a separate repo.
 2. Now you can uncomment what each option in .gitignore to see which files git consideres as candidates for "staging"
 
 # Few useful URLs
-1. [An article on Linked In: https://www.linkedin.com/pulse/curious-experiment-gitignore-satya-komatineni/](https://www.linkedin.com/pulse/curious-experiment-gitignore-satya-komatineni/)
-2. [A running journal on .gitignore](http://satyakomatineni.com/5394)
+1. [An article on Linked In:Curious experiment with *, */, /*, /*/, and /** in .gitignore](https://www.linkedin.com/pulse/curious-experiment-gitignore-satya-komatineni/)
+2. [A running journal on .gitignore](http://satyakomatineni.com/item/5394)
+3. [Reference on gitignore at git](https://git-scm.com/docs/gitignore)
+4. [An Atlassian article](https://www.atlassian.com/git/tutorials/saving-changes/gitignore#git-ignore-patterns)
+5. [A Pluralinsight article](https://www.pluralsight.com/guides/how-to-use-gitignore-file)
+6. [An SOF discussion](https://stackoverflow.com/questions/41761128/are-leading-asterisks-redundant-in-gitignore-path-matching-syntax)
+7. [A repo for gitignore samples](https://github.com/github/gitignore)
